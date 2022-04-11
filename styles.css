@@ -1,0 +1,23 @@
+.navbar-default {
+  background-color: #042B46;
+  border-color: white
+  font-family: montserrat;
+  color: white;
+  font-weight: bold;
+}
+  
+
+/* Navbar active button colour*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #DFE0DE
+}
+
+/* Hoover colour for navbar buttons*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #303135;
+}
